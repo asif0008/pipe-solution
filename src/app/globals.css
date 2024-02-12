@@ -8,6 +8,6 @@
 }
 
 .container-size {
-    @apply w-[95%] md:w-[1240px] mx-auto;
+    @apply w-[95%] md:max-w-[1240px] mx-auto;
 }
 
