@@ -11,16 +11,16 @@ const About = () => {
     <section className='bg-cover bg-center bg-[url("/images/about-img-1.jpg")] h-screen'>
       <section className='container-size relative h-full'>
         <h1 
-        className='text-[2rem] sm:text-[3rem] md:text-[4rem] text-white font-semibold text-center pt-[10rem] md:pt-[9rem] pr-[2%]'
+        className='text-[2rem] sm:text-[3rem] md:text-[4rem] text-white font-semibold text-center absolute top-[17%] left-[50%] translate-x-[-50%] translate-y-[17%] w-full'
         >
           Pipe Solution Leader
         </h1>
-        <div className='flex justify-center pt-[4.5rem] md:pr-[4rem]'>
+        <div className='flex justify-center absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[40%]'>
           <p className='text-md text-center w-full md:w-[35rem] lg:w-[25rem] text-white'>
             Trusted by 200+ companies for 1000s of projects spanning the continent
           </p>
         </div>
-        <p className='text-white text-md pt-[15rem] w-full md:w-[30rem]'>
+        <p className='text-white text-md absolute top-[60%] left-[0%] translate-x-[-0%] translate-y-[60%] w-full md:w-[30rem]'>
         To integrate global expertise and excellence in PE and PB pipes and deliver comprehensive solutions, prioritizing unparalleled value for our clients and partners. 
         </p>
       </section>
