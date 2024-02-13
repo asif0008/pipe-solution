@@ -117,9 +117,9 @@ const About = () => {
               We are poised to deliver VIRTUE as your trusted piping solution provider.
             </p>
             <div className='flex justify-end md:w-[15rem]'>
-              <Link href="/contact" className='flex items-center gap-1 text-white text-sm font-semibold'>
+              <Link href="/contact" className='flex items-center gap-2 text-white text-sm font-semibold'>
                 Contact
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <svg className='animate-bounce-x-axis' xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12" fill="none">
                   <path d="M1 5.29834C0.585786 5.29834 0.25 5.63413 0.25 6.04834C0.25 6.46255 0.585786 6.79834 1 6.79834L1 5.29834ZM23.5303 6.57867C23.8232 6.28577 23.8232 5.8109 23.5303 5.51801L18.7574 0.745037C18.4645 0.452144 17.9896 0.452144 17.6967 0.745038C17.4038 1.03793 17.4038 1.5128 17.6967 1.8057L21.9393 6.04834L17.6967 10.291C17.4038 10.5839 17.4038 11.0587 17.6967 11.3516C17.9896 11.6445 18.4645 11.6445 18.7574 11.3516L23.5303 6.57867ZM1 6.79834L23 6.79834L23 5.29834L1 5.29834L1 6.79834Z" fill="white"/>
                 </svg>
               </Link>
