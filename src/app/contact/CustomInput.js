@@ -37,7 +37,7 @@ const CustomInput = ({ labelText, inputType, tagType }) => {
       </>
       ) : tagType == 'textarea' ? (
         <>
-            <label className={`label absolute translate-x-[-4%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[4%] left-[3%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[20%] left-[4%] text-gray-400'} transition-all duration-500`}>
+            <label className={`label absolute translate-x-[-4%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[1%] left-[3%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[12%] left-[4%] text-gray-400'} transition-all duration-500`}>
             {labelText}
         </label>
             <textarea
@@ -46,7 +46,7 @@ const CustomInput = ({ labelText, inputType, tagType }) => {
             onChange={handleChange}
             className='input w-full z-10 pl-[0.5rem]'
             value={value}
-            rows={5}
+            rows={10}
             cols={12}
             />
         </>

@@ -5,7 +5,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CustomInput from './CustomInput';
-import { Link } from 'next/link'; 
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -29,13 +29,18 @@ const Contact = () => {
                   <CustomInput labelText='Message*' tagType={'textarea'} />
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between mt-[2rem]'>
-                  <div>
-                    <input type='checkbox' />
-                    <p className='flex items-center gap-[1rem]'>
+                  <div className='flex items-center gap-[1rem]'>
+                  <input type="checkbox" className="form-checkbox h-6 w-6 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500" />
+                    <p className='flex items-center gap-1'>
                       By submitting you agree to our 
-                      <Link href="/privacy-policy">privacy policy</Link> 
+                      <Link className='text-primary' href="/privacy-policy">privacy policy</Link>
                     </p>
                   </div>
+                  <input 
+                    type='button' 
+                    value='Submit' 
+                    className='bg-primary px-10 py-2 text-md text-white rounded-md cursor-pointer' 
+                  />
                 </div>
               </form>
             </div>
