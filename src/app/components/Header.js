@@ -1,10 +1,4 @@
 import Link from 'next/link';
-import About from '../about/page';
-import Contact from '../contact/page';
-import Products from '../products/page';
-import Quality from '../quality/page';
-import Resources from '../resources/page';
-import Home from './Home'
 
 const Header = () => {
   return (
