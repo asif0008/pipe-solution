@@ -23,7 +23,7 @@ const CustomInput = ({ labelText, inputType, tagType }) => {
     <div className={`flex-[1] px-3 py-2 border rounded-md relative ${isFocused || value ? 'border-gray-700' : 'border-gray-400'} transition-all duration-300`}>
       {tagType == 'input' ? (
         <>
-            <label className={`label absolute translate-x-[-8%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[4%] left-[6%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[50%] left-[8%] text-gray-400'} transition-all duration-500`}>
+            <label className={`label absolute translate-x-[-8%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[0%] left-[6%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[50%] left-[8%] text-gray-400'} transition-all duration-500`}>
             {labelText}
         </label>
             <input
@@ -37,7 +37,7 @@ const CustomInput = ({ labelText, inputType, tagType }) => {
       </>
       ) : tagType == 'textarea' ? (
         <>
-            <label className={`label absolute translate-x-[-4%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[1%] left-[3%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[12%] left-[4%] text-gray-400'} transition-all duration-500`}>
+            <label className={`label absolute translate-x-[-4%] translate-y-[-50%] z-0 pointer-events-none ${isFocused || value ? 'top-[0%] left-[3%] bg-white px-2 text-gray-700 text-sm' : 'text-md top-[12%] left-[4%] text-gray-400'} transition-all duration-500`}>
             {labelText}
         </label>
             <textarea

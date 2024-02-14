@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CustomInput from './CustomInput';
 import Link from 'next/link';
+import SocialIcons from './SocialIcons';
 
 const Contact = () => {
   return (
@@ -45,7 +46,7 @@ const Contact = () => {
               </form>
             </div>
             <div className='flex-[0.8] bg-white'>
-              contact info
+              <SocialIcons />
             </div>
           </div>
         </section>
