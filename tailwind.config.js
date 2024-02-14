@@ -11,6 +11,7 @@ module.exports = {
         'primary': 'rgb(15 76 129)',
         'background': '#F0F0F0',
         'highlight': '#0FA490 ',
+        'grey1': '#D9D9D9'
       },
     },
   },

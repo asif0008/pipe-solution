@@ -8,7 +8,7 @@ const About = () => {
     <>
     <Header />
     {/* section one */}
-    <section className='bg-cover bg-center bg-[url("/images/about-img-1.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-[url("/images/about-img-1.webp")] h-screen'>
       <section className='container-size relative h-full'>
         <h1 
         className='text-[2rem] sm:text-[3rem] md:text-[4rem] text-white font-semibold text-center absolute top-[17%] left-[50%] translate-x-[-50%] translate-y-[17%] w-full'
@@ -27,7 +27,7 @@ const About = () => {
     </section>
 
     {/* section two */}
-    <section className='bg-cover bg-center bg-[url("/images/about-img-2.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-[url("/images/about-img-2.webp")] h-screen'>
       <section className='container-size relative h-full'>
           <p className='w-full md:w-[35rem] lg:w-[25rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-md text-center text-white'>
           For 20+ years we have prioritised unparalleled value for our clients and partners.
@@ -39,7 +39,7 @@ const About = () => {
     </section>
 
     {/* section three */}
-    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-3.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-3.webp")] h-screen'>
       <section className='container-size relative h-full'>
           <div className='absolute top-[40%] right-[0%] translate-x-[0%] translate-y-[-40%]'>
             <h4 className='text-white text-[2rem] md:text-[3rem] font-semibold leading-10'>
@@ -62,7 +62,7 @@ const About = () => {
     </section>
 
     {/* section four */}
-    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-4.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-4.webp")] h-screen'>
       <section className='container-size relative h-full'>
           <div className='absolute top-[30%] left-[50%] translate-x-[-50%] translate-y-[-30%]'>
             <h4 className='text-white text-[2rem] md:text-[3rem] font-semibold' style={{lineHeight:'42px'}}>
@@ -86,7 +86,7 @@ const About = () => {
     </section>
 
     {/* section five */}
-    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-5.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-5.webp")] h-screen'>
       <section className='container-size relative h-full'>
           <div className='absolute top-[30%] right-[0%] translate-x-[-0%] translate-y-[-30%]'>
             <h4 className='text-white text-[2rem] md:text-[3rem] font-semibold' style={{lineHeight:'42px'}}>
@@ -109,7 +109,7 @@ const About = () => {
     </section>
 
     {/* section six */}
-    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-6.jpg")] h-screen'>
+    <section className='bg-cover bg-center bg-no-repeat bg-[url("/images/about-img-6.webp")] h-screen'>
       <section className='container-size relative h-full'>
           <div className='flex items-center flex-col gap-2 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <Image src="/images/white-logo.png" width={70} height={70}></Image>
