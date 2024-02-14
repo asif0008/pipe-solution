@@ -117,10 +117,11 @@ const About = () => {
               We are poised to deliver VIRTUE as your trusted piping solution provider.
             </p>
             <div className='flex justify-end md:w-[15rem]'>
-              <Link href="/contact" className='flex items-center gap-2 text-white text-sm font-semibold'>
+              <Link href="/contact" className='flex items-center gap-3 text-white text-sm font-semibold'>
                 Contact
-                <svg className='animate-bounce-x-axis' xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12" fill="none">
-                  <path d="M1 5.29834C0.585786 5.29834 0.25 5.63413 0.25 6.04834C0.25 6.46255 0.585786 6.79834 1 6.79834L1 5.29834ZM23.5303 6.57867C23.8232 6.28577 23.8232 5.8109 23.5303 5.51801L18.7574 0.745037C18.4645 0.452144 17.9896 0.452144 17.6967 0.745038C17.4038 1.03793 17.4038 1.5128 17.6967 1.8057L21.9393 6.04834L17.6967 10.291C17.4038 10.5839 17.4038 11.0587 17.6967 11.3516C17.9896 11.6445 18.4645 11.6445 18.7574 11.3516L23.5303 6.57867ZM1 6.79834L23 6.79834L23 5.29834L1 5.29834L1 6.79834Z" fill="white"/>
+                <svg className='animate-bounce-x-axis' xmlns="http://www.w3.org/2000/svg" width="43" height="30" viewBox="0 0 43 30" fill="none">
+                    <ellipse opacity="0.2" cx="28.1368" cy="14.6367" rx="14.5" ry="14.8634" transform="rotate(-90 28.1368 14.6367)" fill="#fff"/>
+                    <path d="M1.38281 14.1367C1.10667 14.1367 0.882812 14.3606 0.882812 14.6367C0.882812 14.9129 1.10667 15.1367 1.38281 15.1367V14.1367ZM31.4631 14.9903C31.6584 14.795 31.6584 14.4784 31.4631 14.2832L28.2812 11.1012C28.0859 10.9059 27.7693 10.9059 27.5741 11.1012C27.3788 11.2964 27.3788 11.613 27.5741 11.8083L30.4025 14.6367L27.5741 17.4651C27.3788 17.6604 27.3788 17.977 27.5741 18.1723C27.7693 18.3675 28.0859 18.3675 28.2812 18.1723L31.4631 14.9903ZM1.38281 15.1367H31.1096V14.1367H1.38281V15.1367Z" fill="#fff"/>
                 </svg>
               </Link>
             </div>
