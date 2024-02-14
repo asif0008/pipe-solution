@@ -22,8 +22,8 @@ const SocialIcons = () => {
   return (
     <div className="flex items-center">
       {tabs.map((tab, index) => (
-        <div key={index} className={`tab flex-1 text-center ${activeTab === index ? 'active' : ''} ${index !== 0 ? 'border-l border-white' : ''}`} style={{ transition: 'background-color 0.3s, color 0.3s' }}>
-          <div className={`flex items-center gap-2 ${activeTab === index ? 'text-primary bg-white' : 'text-white bg-primary'}`} onClick={() => handleTabClick(index)} style={{ transition: 'background-color 0.3s, color 0.3s' }}>
+        <div key={index} className={`tab flex-1 text-center ${activeTab === index ? 'active' : ''} ${index !== 0 ? 'border-l border-white' : ''}`}>
+          <div className={`flex items-center gap-2 ${activeTab === index ? 'text-primary bg-white' : 'text-white bg-primary'}`} onClick={() => handleTabClick(index)}>
             <span className="cursor-pointer p-3 w-full flex justify-center">{tab.icon}</span>
             {activeTab === index && (
               <div className="p-3 border-l border-primary">

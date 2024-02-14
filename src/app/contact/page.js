@@ -1,23 +1,24 @@
 'use client'
 
 // Contact.js
-import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CustomInput from './CustomInput';
 import Link from 'next/link';
 import SocialIcons from './SocialIcons';
+import Map from './Map';
 
 const Contact = () => {
+
   return (
     <>
       <Header />
       <section className='bg-background pt-[3rem] pb-[5rem]'>
         <section className='container-size'>
           <h1 className='text-primary font-semibold text-[1.5rem] md:text-[2.5rem]'>Contact us</h1>
-          <div className='flex flex-col lg:flex-row gap-[3rem] mt-[1rem]'>
-            <div className='flex-[1] bg-white px-12 py-6'>
-              <form>
+          <div className='flex flex-col-reverse lg:flex-row gap-[3rem] mt-[1rem]'>
+            <div className='flex-[1]'>
+              <form className='bg-white px-12 py-6'>
                 <div className='flex flex-col md:flex-row gap-[2rem]'>
                   <CustomInput labelText='Name*' inputType={'text'} tagType={'input'} />
                   <CustomInput labelText='Surname*' inputType={'text'} tagType={'input'} />
@@ -44,9 +45,16 @@ const Contact = () => {
                   />
                 </div>
               </form>
+              <div className='block lg:hidden mt-[3rem]'>
+                <Map />
+              </div>
             </div>
-            <div className='flex-[0.8] bg-white'>
+            
+            <div className='flex-[0.8]'>
               <SocialIcons />
+              <div className='hidden lg:block'>
+                <Map />
+              </div>
             </div>
           </div>
         </section>
