@@ -315,6 +315,152 @@ const Privacy = () => {
         If your personal data is processed based on consent, we will stop the processing when you have withdrawn the consent. However, we may keep your personal data to record your withdrawal so we can respond to your request in the future.      
         </p>
       </p>
+
+      <h2 className='mt-5 text-xl font-medium'>
+      6. Disclosure of Your Personal Data     
+      </h2>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      6.1
+        <p>
+        We disclose and share your personal data with:   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (1)
+        <p>
+        Individuals and entities which are not our affiliates ("third parties") for the purpose of collecting and processing personal information as described in this privacy notice such as our dealers, transport and logistics service providers, postal service providers, tour operators, event organizers, data processing service providers, marketing service providers (who might send messages to you to promote our products and services), contractors (who might perform tasks on our behalf), financial service providers (such as banks, payment companies, electronic payment service providers, credit providers), IT service providers (such as providers of cloud services, blockchain systems, data analytics, SMS, or emails), IT developers, programmers, auditors, consultants, advisors, government agencies (e.g. the Revenue Department, the Anti-Money Laundering Office), insurers, legal advisors, third parties (in Thailand or anywhere else) that are related to subpoenas, court orders, or other legal processes or requirements under the laws or regulations of Thailand or laws and regulations of other jurisdictions that apply to us, our affiliates, or financial institutions to manage risks and to help detect and prevent illegal acts and fraud that may occur and other violations to our policies and agreements, and other persons who have to obtain your personal data to make us able to conduct business, provide products and services, and meet the purposes for the collection and processing of personal data as described in this privacy notice.  
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      6.2
+        <p>
+        In the event of a restructuring, sale, or transfer of our business or assets; we may disclose your personal data to a transferee or an acquirer and their advisor. However, we will use our best effort to protect your personal data which includes requiring the transferee or the acquirer and their advisor to comply with this privacy notice.       
+        </p>
+      </p>
+
+      <h2 className='mt-5 text-xl font-medium'>
+      7. Transferring Personal Data Overseas     
+      </h2>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      7.1
+        <p>
+        We may send or transfer your personal data to our affiliates or other persons in a foreign country if it is necessary in order for us to perform our obligations in the contract to which you are the counterparty or contract between us and third party for your benefit, to respond to your pre-contractual request; to protect your and third party’s life, body and health, to comply with laws or to the extent necessary for the public interest activities.   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      7.2
+        <p>
+        We may store your information on a computer, server, or cloud provided by a third party. And may use third-party programs, applications and platforms in processing your personal data. However, we will not allow unrelated parties to access your personal data and will require such parties to have appropriate security protection measures.        
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      7.3
+        <p>
+        In the event that your personal data is transferred to a foreign country, we will comply with applicable personal data protection laws and take appropriate measures to ensure that your personal data is protected and you can exercise your rights in accordance with the laws. Moreover, we will require those who receive the data to have appropriate protection measures for your personal data, to process such personal data only as necessary, and to take steps to prevent unauthorized use or disclosure of your personal data.       
+        </p>
+      </p>
+
+      <h2 className='mt-5 text-xl font-medium'>
+      8. Security Measures      
+      </h2>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      8.1
+        <p>
+        We have implemented appropriate technical and administrative standards to protect your personal data from loss, misuse, and unauthorized access use, disclosure, or destruction. We use technology and security procedures such as encryption and access restriction to ensure that only authorized people shall have access to your personal data, and that they are trained about the importance of protecting personal data.   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      8.2
+        <p>
+        We provide appropriate security measures to prevent the loss, access, use, change, or disclosure of personal data from those who do not have rights or duties related to that personal data. We will review the above-mentioned measures when necessary or when the technology changes to ensure effective security.      
+        </p>
+      </p>
+
+      <h2 className='mt-5 text-xl font-medium'>
+      9. Your Rights as a Data Subject      
+      </h2>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      9.1
+        <p>
+        You have the rights under the personal data protection law summarized as follows:   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (1)
+        <p>
+        Withdraw the consent you have given to us;  
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (2)
+        <p>
+        Request to view and copy your personal data or disclose the source where we obtain your personal data;   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (3)
+        <p>
+        Send or transfer personal data that is in an electronic form as required by personal data protection laws to other data controllers; 
+        </p>   
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (4)
+        <p>
+        Oppose the collection, use, or disclosure of personal information about you   
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (5)
+        <p>
+        	Delete or destroy or make your personal data non-personally identifiable (anonymous) information; 
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (6)
+        <p>
+        	Suspend the use of your personal data; 
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (7)
+        <p>
+        	Correct your personal information to be current, complete, and not cause misunderstanding. 
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      (8)
+        <p>
+        	Complain to the Personal Data Protection Committee in the event that we, our data processors, our employees, or our contractors violate or do not comply with personal data protection laws.  
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      
+        <p>
+        In this regard, we will consider your request, notify the result of the consideration, and execute it (if appropriate) within 30 days from the date we receive the request. Your rights mentioned above will be in accordance with the personal data protection law.  
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      9.2
+        <p>
+        You can exercise your legal rights by contacting our DPO at <a className='text-primary' href='dpo.privacy@pspipe.co.th' target='_blank'>dpo.privacy@pspipe.co.th</a>   
+        </p>
+      </p>
+
+      <h2 className='mt-5 text-xl font-medium'>
+      10. Information about our Data Protection Officer       
+      </h2>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2'>
+      10.1
+        <p>
+        In the event that you have a question regarding personal data protection, please send your message to <a className='text-primary' href='dpo.privacy@pspipe.co.th' target='_blank'>dpo.privacy@pspipe.co.th</a>
+        </p>
+      </p>
+      <p className='flex items-start gap-[2.1rem] text-sm text-gray-600 leading-relaxed mt-2 ml-[3rem]'>
+      
+        <p>
+        In the event that this privacy notice is amended, we will announce a new privacy notice on this website, which you should periodically review the privacy notice. The new privacy notice will be effective immediately on the date of announcement.   
+        </p>
+      </p>
       </div>
     </div>
     <Footer />
