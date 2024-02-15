@@ -10,9 +10,9 @@ const Accordion = ({ items }) => {
   return (
     <div className="">
       {items.map((item, index) => (
-        <div key={index} className={`bg-${openIndex === index ? 'gray-100' : 'white'} transition-colors duration-300 ease-in-out`}>
+        <div key={index} className={`bg-${openIndex === index ? 'gray-200' : 'white'} transition-colors duration-300 ease-in-out`}>
           <button
-            className={`flex justify-between items-center w-full py-3 px-4 bg-${openIndex === index ? 'gray-100' : 'white'} hover:bg-gray-200 focus:outline-none transition-colors duration-300 ease-in-out`}
+            className={`flex justify-between items-center w-full py-3 px-4 bg-${openIndex === index ? 'gray-200' : 'white'} hover:bg-gray-200 focus:outline-none transition-colors duration-300 ease-in-out`}
             onClick={() => handleToggle(index)}
           >
             <span className='text-primary text-xl font-medium'>{item.title}</span>
@@ -26,7 +26,7 @@ const Accordion = ({ items }) => {
             </svg>
           </button>
           {openIndex === index && (
-            <div className={`py-2 px-4 bg-${openIndex === index ? 'gray-100' : 'white'} transition-colors duration-300 ease-in-out`}>
+            <div className={`py-2 px-4 bg-${openIndex === index ? 'gray-200' : 'white'} transition-colors duration-300 ease-in-out`}>
               {item.content.map((subItem, subIndex) => (
                 <div key={subIndex} className="flex items-center justify-between py-2">
                   <p className="text-md text-primary font-light">{subItem.title}</p>
